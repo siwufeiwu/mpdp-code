@@ -55,7 +55,8 @@ def main():
                          length=274, publication_date='1988-04-01', edition=2)
 
     for i in (b1, b2):
-        print(i)
+        # print(i)
+        print(i.__dict__)
     print('ID b1 : {} != ID b2 : {}'.format(id(b1), id(b2)))
 
 if __name__ == '__main__':
